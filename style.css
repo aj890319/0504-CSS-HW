@@ -1,0 +1,53 @@
+@charset "utf-8";
+html {
+  scroll-behavior: smooth;
+}
+body {
+	position: center center;
+}
+.first {
+    background-color: #F0BBBC;
+    width: 150px;
+	height: 100px;
+	margin: 0 auto
+}
+.first:hover {
+    -webkit-transform: rotate(18deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(17deg);
+    -webkit-box-shadow: 1px 1px 5px 2px #FD0027;
+    box-shadow: px 1px 5px 2px #FD0027;
+}
+.second {
+    background-color: #22E98D;
+	width: 150px;
+    height: 100px;
+	margin: 0 auto
+}
+.second:hover {
+    background-color: #18E7DE;
+    opacity: 50;
+    color: #068A3D;
+    height: 250px;
+    line-height: 50px;
+    text-align: center;
+    width: 300px;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+    -webkit-box-shadow: 0px 0px #068A3D;
+    box-shadow: 0px 0px #068A3D;
+}
+.third {
+    background-color: #D7F32F;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-position: center center;
+}
+.third:hover {
+transform: translateY(-30px);
+}
